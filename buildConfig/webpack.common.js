@@ -33,7 +33,7 @@ module.exports = {
                     {
                         loader: 'ts-loader',
                         options: {
-                            configFileName: './src.tsconfig.json',
+                            configFileName: './client.tsconfig.json',
                             transpileOnly: true
                         }
                     }, 'angular2-template-loader'
