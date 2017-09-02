@@ -1,0 +1,44 @@
+{
+  "name": "angular-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config buildConfig/webpack.common.js",
+    "buildprod": "webpack --config buildConfig/webpack.prod.js",
+    "watch": "webpack --config buildConfig/webpack.common.js -w --display-error-details"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.4.0-RC.0",
+    "@angular/compiler": "^4.4.0-RC.0",
+    "@angular/core": "^4.4.0-RC.0",
+    "@angular/platform-browser": "^4.4.0-RC.0",
+    "@angular/router": "^4.4.0-RC.0",
+    "@angular/platform-browser-dynamic": "^4.4.0-RC.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "core-js": "^2.5.1",
+    "zone.js": "^0.8.17"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.0.26",
+    "angular2-template-loader": "^0.6.2",
+    "ts-loader": "^2.3.4",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "raw-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "fork-ts-checker-webpack-plugin":"^0.2.8",
+    "awesome-typescript-loader": "^3.2.3",
+    "compression-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "html-loader": "^0.5.1",
+    "typescript": "2.3.4",
+    "webpack": "^3.5.5"
+  }
+}
